@@ -43,7 +43,7 @@ const Contacts = () => {
     <>
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4 text-center">Contact Info</h1>
+          <h1 className="display-4 text-center">Contact Manager</h1>
         </div>
       </div>
       <div className="row">
@@ -54,14 +54,7 @@ const Contacts = () => {
         </div>
         <div className="col-md-7">
           <table className="table table-borderless table-stripped">
-            <thead className="thead-light">
-              <tr>
-                <th>Name</th>
-                <th>Mobile</th>
-                <th>Email</th>
-                <th>Actions</th>
-              </tr>
-            </thead>
+            <thead className="thead-light"></thead>
             <tbody>
               {Object.keys(contactObjects).map((key) => (
                 <tr key={key}>
