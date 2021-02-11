@@ -54,7 +54,14 @@ const Contacts = () => {
         </div>
         <div className="col-md-7">
           <table className="table table-borderless table-stripped">
-            <thead className="thead-light"></thead>
+            <thead className="thead-light">
+              <tr>
+                <th>Name</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
             <tbody>
               {Object.keys(contactObjects).map((key) => (
                 <tr key={key}>
