@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Contacts from "./components/Contacts";
 import FlexBox from "./components/Flex/FlexBox";
+import RQuery from "./components/RQuery";
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
     //     <Contacts />
     //   </div>
     // </div>
-    <div className="">
-      <FlexBox />
+    <div className="App">
+      {/* <FlexBox /> */}
+      <RQuery />
     </div>
   );
 }
