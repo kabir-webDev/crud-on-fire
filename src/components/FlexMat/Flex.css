@@ -1,5 +1,5 @@
 .container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   max-width: 300px;
   color: green;
   display: flex;
