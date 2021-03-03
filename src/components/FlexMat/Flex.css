@@ -1,0 +1,15 @@
+.container {
+  border: 1px solid black;
+  max-width: 300px;
+  color: green;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  background-color: tomato;
+  border: 2px solid gray;
+  text-align: center;
+  margin: 3px;
+  display: flex;
+  flex-wrap: wrap;
+}
