@@ -1,0 +1,20 @@
+.nav {
+  color: rgb(31, 28, 28);
+  height: 60px;
+  background: #e5e7e9;
+  border-bottom: 2px solid rgb(95, 78, 247);
+  display: flex;
+  justify-content: space-between;
+}
+.left__nav {
+  width: 33%;
+  display: flex;
+}
+.right__nav {
+  width: 33%;
+  display: flex;
+  justify-content: right;
+}
+.items {
+  margin: 10px;
+}
